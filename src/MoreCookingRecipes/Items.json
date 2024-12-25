@@ -1,0 +1,517 @@
+[
+  {
+    "ID": 30001,
+    "Title": "Milked Rat",
+    "Categories": [
+      "Animal"
+    ],
+    "Value": 4,
+    "Description": "",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/Rat_spr",
+      "ColorValue": "RGBA(0.000, 0.000, 0.000, 0.000)",
+      "PrefabPath": "Prefabs/Animals/rat_001",
+      "PrefabPathMany": "Prefabs/Animals/rat_001"
+    },
+    "Actions": [
+      {
+        "DestroyAfterUse": true,
+        "Type": "Slaughter",
+        "Amount": 1,
+        "Food": 0.0,
+        "Drink": 0.0,
+        "Nicotine": 0.0,
+        "Intoxication": 0.0,
+        "SMV": 0.0,
+        "SMVProgressionRate": 0.0,
+        "Depression": 0.0,
+        "Health": 0.0,
+        "Bleeding": 0.0,
+        "High": 0.0,
+        "Tiredness": 0.0,
+        "Hygiene": 0.0,
+        "AlcoholAddiction": 0.0,
+        "MushroomAddiction": 0.0,
+        "SmokingAddiction": 0.0,
+        "SpecialEffectName": "None",
+        "SpecialEffectAmount": 0.0,
+        "Mode": 0,
+        "NoRequiredItems": null,
+        "ItemsToSpawn": [
+          {
+            "name": "Rat meat",
+            "ID": 26030
+          }
+        ],
+        "RequiredItems": [],
+        "Name": "Slaughter",
+        "UseSound": "Sounds/object/slaughter_001",
+        "Data": null,
+        "$type": "OS.Items.ItemConsumable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "integrity": 1.0,
+        "integrityLossPerHour": 0.01,
+        "refigerationFactor": 1.0,
+        "spoiledItem": {
+          "name": "Rat",
+          "ID": 10460
+        },
+        "refigerated": 0.0,
+        "dontDestroyAtZero": false,
+        "perishingDisabled": false,
+        "lastChecked": {
+          "seconds": 0.0,
+          "minutes": 0.0,
+          "hours": 0.0,
+          "weekDay": 0,
+          "day": 0,
+          "month": 0,
+          "year": 0,
+          "currentDay": 0
+        },
+        "$type": "OS.Items.ItemPerishabledata"
+      }
+    ]
+  },
+  {
+    "ID": 30002,
+    "Title": "Vinegar Input",
+    "Categories": [
+      "ItemGroup"
+    ],
+    "Value": 0,
+    "Description": "It's various alcohols",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "Default",
+      "SpritePath": "Sprites/Items/Liquids/liquid_cider",
+      "ColorValue": "",
+      "PrefabPath": "Prefabs/Items/testLiquid",
+      "PrefabPathMany": "Prefabs/Items/testLiquid"
+    },
+    "Actions": [],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "itemGroup": [
+
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Wine",
+              "ID": 12990
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Turnip Wine",
+              "ID": 13000
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Turnip Mushroom Wine",
+              "ID": 13010
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Potato Wine",
+              "ID": 13020
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Potato Mushroom Wine",
+              "ID": 13030
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Carrot Wine",
+              "ID": 13040
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Carrot Mushroom Wine",
+              "ID": 13050
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Kilju",
+              "ID": 13060
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Kilju",
+              "ID": 13070
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Fecal Kilju",
+              "ID": 13080
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Fecal Mushroom Kilju",
+              "ID": 13090
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Beer",
+              "ID": 13100
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Beer",
+              "ID": 13110
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Wine",
+              "ID": 13280
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Cider",
+              "ID": 14430
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Cider",
+              "ID": 14440
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Ale",
+              "ID": 14700
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Ale",
+              "ID": 14710
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Sahti",
+              "ID": 14740
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Sahti",
+              "ID": 14750
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Rice Wine",
+              "ID": 15170
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Kumis",
+              "ID": 15180
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Rice Mushroom Wine",
+              "ID": 15230
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "vinegar_input",
+            "item": {
+              "name": "Mushroom Kumis",
+              "ID": 15240
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          }
+        ],
+        "$type": "OS.Items.ItemGroupData"
+      }
+    ]
+  },
+  {
+    "ID": 30003,
+    "Title": "Vinegar",
+    "Categories": [
+      "Liquid",
+      "Vinegar",
+      "Fermenter"
+    ],
+    "Value": 12,
+    "Description": "",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/Liquids/liquid_cider",
+      "ColorValue": "RGBA(0.802, 0.735, 0.443, 1.000)",
+      "PrefabPath": "Prefabs/Items/testLiquid",
+      "PrefabPathMany": "Prefabs/Items/testLiquid"
+    },
+    "Actions": [
+      {
+        "DestroyAfterUse": false,
+        "Type": "Drink",
+        "Amount": 4,
+        "Food": 0.0,
+        "Drink": 1.0,
+        "Nicotine": 0.0,
+        "Intoxication": 0.0,
+        "SMV": 0.0,
+        "SMVProgressionRate": 0.0,
+        "Depression": 2.2,
+        "Health": 1.0,
+        "Bleeding": 0.0,
+        "High": 0.0,
+        "Tiredness": 0.0,
+        "Hygiene": 0.0,
+        "AlcoholAddiction": 0.0,
+        "MushroomAddiction": 0.0,
+        "SmokingAddiction": 0.0,
+        "SpecialEffectName": "None",
+        "SpecialEffectAmount": 0.0,
+        "Mode": 0,
+        "NoRequiredItems": "",
+        "ItemsToSpawn": [],
+        "RequiredItems": [],
+        "Name": "Drink",
+        "UseSound": "Sounds/use/drinking_001",
+        "Data": null,
+        "$type": "OS.Items.ItemConsumable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "fixedQuality": false,
+        "quality": 1.0,
+        "modifies": "Value,BaseStats,Strength,Depression,SMV,Health",
+        "$type": "OS.Items.ItemQualityData"
+      }
+    ]
+  }
+]

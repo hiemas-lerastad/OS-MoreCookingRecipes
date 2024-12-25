@@ -1,0 +1,390 @@
+[
+  {
+    "ID": 30001,
+    "Name": "Rat Milk",
+    "Type": "Basic",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Rat",
+          "ID": 10460
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Empty Milk Carton",
+          "ID": 10690
+        },
+        "Value": 1.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Milk",
+          "ID": 20210
+        },
+        "Value": 1.0
+      },
+      {
+        "Key": {
+          "name": "Milked Rat",
+          "ID": 30001
+        },
+        "Value": 4.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Milked Rat",
+          "ID": 30001
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Empty Milk Carton",
+          "ID": 10690
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": false,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.05,
+    "RelevantSkill": "Cooking",
+    "SkillFactor": 1.0,
+    "ProcessTime": 60,
+    "Meta": null
+  },
+  {
+    "ID": 30002,
+    "Name": "Vinegar",
+    "Type": "Fermenter",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Vinegar Input",
+          "ID": 30002
+        },
+        "Value": 0.1
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Vinegar",
+          "ID": 30003
+        },
+        "Value": 0.1
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Vinegar",
+          "ID": 30003
+        },
+        "Value": 0.05
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": -1
+      }
+    },
+    "FailChance": 0.1013,
+    "RelevantSkill": "Brewing",
+    "SkillFactor": 1.0,
+    "ProcessTime": 150000,
+    "Meta": null
+  },
+  {
+    "ID": 30003,
+    "Name": "Cheese",
+    "Type": "Stove",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Milk",
+          "ID": 13460
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Vinegar",
+          "ID": 30003
+        },
+        "Value": 0.1
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Cheese",
+          "ID": 24060
+        },
+        "Value": 8.0
+      },
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Moldy waste",
+          "ID": 10550
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": false,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.013,
+    "RelevantSkill": "Cooking",
+    "SkillFactor": 1.0,
+    "ProcessTime": 2000,
+    "Meta": null
+  },
+  {
+    "ID": 30004,
+    "Name": "Hot Dog Bun",
+    "Type": "Oven",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": true,
+      "itemToShow": {
+        "name": "Hot Dog Bun",
+        "ID": 14050
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Wheat Dough",
+          "ID": 13490
+        },
+        "Value": 1.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Hot Dog Bun",
+          "ID": 14050
+        },
+        "Value": 1.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Ash",
+          "ID": 10010
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": false,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.2,
+    "RelevantSkill": "Cooking",
+    "SkillFactor": 1.0,
+    "ProcessTime": 3600,
+    "Meta": null
+  },
+  {
+    "ID": 30005,
+    "Name": "Hamburger Bun",
+    "Type": "Oven",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": true,
+      "itemToShow": {
+        "name": "Hamburger Bun",
+        "ID": 14010
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Wheat Dough",
+          "ID": 13490
+        },
+        "Value": 1.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Hamburger Bun",
+          "ID": 14010
+        },
+        "Value": 1.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Ash",
+          "ID": 10010
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": false,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.2,
+    "RelevantSkill": "Cooking",
+    "SkillFactor": 1.0,
+    "ProcessTime": 3600,
+    "Meta": null
+  }
+]
