@@ -17,5 +17,5 @@ Hot Dog Bun - Wheat Dough in Oven
 - Install BepinEx 5
 - Configure Doorstop with unstripped assemblies (Unity v2019.4.40 version)
   - [Click Here](https://obenseuermodding.github.io/Information/www/Guides/Configuring-Doorstop.html) For a Guide
-- Install [Lavender](https://github.com/leonarudo/Lavender/tree/main) as Lavender.dll in your BepInEx plugins folder
+- Install [Lavender](https://github.com/leonarudo/Lavender/tree/main) as Lavender.dll in your BepInEx plugins folder (Mines update version avaliable [here](https://github.com/hiemas-lerastad/OS-MoreCookingRecipes/releases/tag/Lavender))
 - Drag and drop the MoreCookingRecipes Folder from the [Releases](https://github.com/hiemas-lerastad/OS-MoreCookingRecipes/releases/tag/Main) to your BepinEx plugins folder
