@@ -513,5 +513,392 @@
         "$type": "OS.Items.ItemQualityData"
       }
     ]
+  },
+  {
+    "ID": 30004,
+    "Title": "Rat Milk",
+    "Categories": [
+      "Liquid",
+      "Food"
+    ],
+    "Value": 12,
+    "Description": "It's good for the teeth",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/liquid_milk",
+      "ColorValue": "RGBA(0.851, 0.847, 0.851, 1.000)",
+      "EmissionStrength": 0.0,
+      "PrefabPath": "Prefabs/Items/testLiquid",
+      "PrefabPathMany": "Prefabs/Items/testLiquid",
+      "SkinSpritePaths": []
+    },
+    "Actions": [
+      {
+        "DestroyAfterUse": false,
+        "Type": "Drink",
+        "Amount": 5,
+        "Food": 0.0,
+        "Drink": 0.0,
+        "Nicotine": 0.0,
+        "Intoxication": 0.0,
+        "SMV": 0.0,
+        "SMVProgressionRate": 0.0,
+        "Depression": 0.33,
+        "Health": 0.0,
+        "Bleeding": 0.0,
+        "High": 0.0,
+        "HighOrange": 0.0,
+        "HighOrangeBad": 0.0,
+        "Tiredness": 0.0,
+        "Hygiene": 0.0,
+        "AlcoholAddiction": 0.0,
+        "MushroomAddiction": 0.0,
+        "SmokingAddiction": 0.0,
+        "SpecialEffectName": "None",
+        "SpecialEffectAmount": 0.0,
+        "Mode": 0,
+        "NoRequiredItems": "",
+        "ItemsToSpawn": [],
+        "RequiredItems": [],
+        "Name": "Drink",
+        "UseSound": "Sounds/use/drinking_001",
+        "Data": null,
+        "$type": "OS.Items.ItemConsumable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "integrity": 1.0,
+        "integrityLossPerHour": 0.33,
+        "refigerationFactor": 0.6,
+        "spoiledItem": {
+          "name": "Sewage",
+          "itemnamespace": null,
+          "ID": 13270
+        },
+        "refigerated": 0.0,
+        "spritePath": "Sprites/Items/Mold overlay",
+        "dontDestroyAtZero": false,
+        "perishingDisabled": false,
+        "lastChecked": {
+          "seconds": 0.0,
+          "minutes": 0.0,
+          "hours": 0.0,
+          "weekDay": 0,
+          "day": 0,
+          "month": 0,
+          "year": 0,
+          "currentDay": 0
+        },
+        "$type": "OS.Items.ItemPerishabledata"
+      }
+    ]
+  },
+  {
+    "ID": 30005,
+    "Title": "Cat Milk",
+    "Categories": [
+      "Liquid",
+      "Food"
+    ],
+    "Value": 12,
+    "Description": "It's good for the claws",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/liquid_milk",
+      "ColorValue": "RGBA(0.851, 0.847, 0.851, 1.000)",
+      "EmissionStrength": 0.0,
+      "PrefabPath": "Prefabs/Items/testLiquid",
+      "PrefabPathMany": "Prefabs/Items/testLiquid",
+      "SkinSpritePaths": []
+    },
+    "Actions": [
+      {
+        "DestroyAfterUse": false,
+        "Type": "Drink",
+        "Amount": 5,
+        "Food": 0.0,
+        "Drink": 0.0,
+        "Nicotine": 0.0,
+        "Intoxication": 0.0,
+        "SMV": 0.0,
+        "SMVProgressionRate": 0.0,
+        "Depression": 0.1,
+        "Health": 0.0,
+        "Bleeding": 0.0,
+        "High": 0.0,
+        "HighOrange": 0.0,
+        "HighOrangeBad": 0.0,
+        "Tiredness": 0.0,
+        "Hygiene": 0.0,
+        "AlcoholAddiction": 0.0,
+        "MushroomAddiction": 0.0,
+        "SmokingAddiction": 0.0,
+        "SpecialEffectName": "None",
+        "SpecialEffectAmount": 0.0,
+        "Mode": 0,
+        "NoRequiredItems": "",
+        "ItemsToSpawn": [],
+        "RequiredItems": [],
+        "Name": "Drink",
+        "UseSound": "Sounds/use/drinking_001",
+        "Data": null,
+        "$type": "OS.Items.ItemConsumable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "integrity": 1.0,
+        "integrityLossPerHour": 0.33,
+        "refigerationFactor": 0.6,
+        "spoiledItem": {
+          "name": "Sewage",
+          "itemnamespace": null,
+          "ID": 13270
+        },
+        "refigerated": 0.0,
+        "spritePath": "Sprites/Items/Mold overlay",
+        "dontDestroyAtZero": false,
+        "perishingDisabled": false,
+        "lastChecked": {
+          "seconds": 0.0,
+          "minutes": 0.0,
+          "hours": 0.0,
+          "weekDay": 0,
+          "day": 0,
+          "month": 0,
+          "year": 0,
+          "currentDay": 0
+        },
+        "$type": "OS.Items.ItemPerishabledata"
+      }
+    ]
+  },
+  {
+    "ID": 30006,
+    "Title": "Milked Cat",
+    "Categories": [
+      "Animal"
+    ],
+    "Value": 600,
+    "Description": "",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/Cat",
+      "ColorValue": "RGBA(0.000, 0.000, 0.000, 0.000)",
+      "EmissionStrength": 0.0,
+      "PrefabPath": "Prefabs/Items/Animals/cat_001",
+      "PrefabPathMany": "Prefabs/Items/Animals/cat_001",
+      "SkinSpritePaths": {
+        "$content": [],
+        "$id": "4067"
+      }
+    },
+    "Actions": [
+      {
+        "DestroyAfterUse": true,
+        "Type": "Slaughter",
+        "Amount": 10,
+        "Food": 0.0,
+        "Drink": 0.0,
+        "Nicotine": 0.0,
+        "Intoxication": 0.0,
+        "SMV": 0.0,
+        "SMVProgressionRate": 0.0,
+        "Depression": 0.0,
+        "Health": 0.0,
+        "Bleeding": 0.0,
+        "High": 0.0,
+        "HighOrange": 0.0,
+        "HighOrangeBad": 0.0,
+        "Tiredness": 0.0,
+        "Hygiene": 0.0,
+        "AlcoholAddiction": 0.0,
+        "MushroomAddiction": 0.0,
+        "SmokingAddiction": 0.0,
+        "SpecialEffectName": "None",
+        "SpecialEffectAmount": 0.0,
+        "Mode": 0,
+        "NoRequiredItems": null,
+        "ItemsToSpawn": [
+          {
+            "name": "Cat Meat",
+            "itemnamespace": null,
+            "ID": 26040
+          },
+          {
+            "name": "Cat Meat",
+            "itemnamespace": null,
+            "ID": 26040
+          },
+          {
+            "name": "Cat Meat",
+            "itemnamespace": null,
+            "ID": 26040
+          },
+          {
+            "name": "Cat Meat",
+            "itemnamespace": null,
+            "ID": 26040
+          },
+          {
+            "name": "Cat Meat",
+            "itemnamespace": null,
+            "ID": 26040
+          },
+          {
+            "name": "Leather Roll",
+            "itemnamespace": null,
+            "ID": 12710
+          },
+          {
+            "name": "Leather Scraps",
+            "itemnamespace": null,
+            "ID": 12690
+          }
+        ],
+        "RequiredItems": [
+          {
+            "name": "Axe",
+            "itemnamespace": null,
+            "ID": 10700
+          }
+        ],
+        "Name": "Slaughter",
+        "UseSound": "Sounds/object/slaughter_001",
+        "Data": null,
+        "$type": "OS.Items.ItemConsumable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "integrity": 1.0,
+        "integrityLossPerHour": 0.01,
+        "refigerationFactor": 1.0,
+        "spoiledItem": {
+          "name": "Cat",
+          "ID": 12720
+        },
+        "refigerated": 0.0,
+        "dontDestroyAtZero": false,
+        "perishingDisabled": false,
+        "lastChecked": {
+          "seconds": 0.0,
+          "minutes": 0.0,
+          "hours": 0.0,
+          "weekDay": 0,
+          "day": 0,
+          "month": 0,
+          "year": 0,
+          "currentDay": 0
+        },
+        "$type": "OS.Items.ItemPerishabledata"
+      }
+    ]
+  },
+  {
+    "ID": 30007,
+    "Title": "Milk Input",
+    "Categories": [
+      "ItemGroup"
+    ],
+    "Value": 0,
+    "Description": "It's various milks",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "Default",
+      "SpritePath": "Sprites/Items/Liquids/liquid_milk",
+      "ColorValue": "",
+      "PrefabPath": "Prefabs/Items/testLiquid",
+      "PrefabPathMany": "Prefabs/Items/testLiquid"
+    },
+    "Actions": [],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "itemGroup": [
+          {
+            "groupItemTag": "milk_input",
+            "item": {
+              "name": "Milk",
+              "ID": 20210
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "milk_input",
+            "item": {
+              "name": "Milk",
+              "ID": 13460
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "milk_input",
+            "item": {
+              "name": "Rat Milk",
+              "ID": 30004
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          },
+          {
+            "groupItemTag": "milk_input",
+            "item": {
+              "name": "Cat Milk",
+              "ID": 30005
+            },
+            "craftingValues": {
+              "useOutputTag": "",
+              "qualityFactor": 1,
+              "addSMV": 0,
+              "skillFactor": 1,
+              "failFactor": 1
+            }
+          }
+        ],
+        "$type": "OS.Items.ItemGroupData"
+      }
+    ]
   }
+
 ]

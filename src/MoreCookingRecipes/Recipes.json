@@ -14,7 +14,7 @@
     "RecipeRequired": false,
     "RequiredConditions": [],
     "ExcludingConditions": [],
-    "variantItemCategory": "None",
+    "variantItemCategory": "LiquidContainer",
     "variantItemAmount": 0,
     "input": [
       {
@@ -26,8 +26,9 @@
       },
       {
         "Key": {
-          "name": "Empty Milk Carton",
-          "ID": 10690
+          "name": "Empty Syringe",
+          "itemnamespace": null,
+          "ID": 12660
         },
         "Value": 1.0
       }
@@ -35,10 +36,10 @@
     "output": [
       {
         "Key": {
-          "name": "Milk",
-          "ID": 20210
+          "name": "Rat Milk",
+          "ID": 30004
         },
-        "Value": 1.0
+        "Value": 0.5
       },
       {
         "Key": {
@@ -46,6 +47,14 @@
           "ID": 30001
         },
         "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Empty Syringe",
+          "itemnamespace": null,
+          "ID": 12660
+        },
+        "Value": 1.0
       }
     ],
     "outputFail": [
@@ -58,8 +67,9 @@
       },
       {
         "Key": {
-          "name": "Empty Milk Carton",
-          "ID": 10690
+          "name": "Empty Syringe",
+          "itemnamespace": null,
+          "ID": 12660
         },
         "Value": 1.0
       }
@@ -184,8 +194,8 @@
     "input": [
       {
         "Key": {
-          "name": "Milk",
-          "ID": 13460
+          "name": "Milk Input",
+          "ID": 30007
         },
         "Value": 4.0
       },
@@ -204,7 +214,7 @@
           "ID": 24060
         },
         "Value": 8.0
-      },
+      }
     ],
     "outputFail": [
       {
@@ -385,6 +395,201 @@
     "RelevantSkill": "Cooking",
     "SkillFactor": 1.0,
     "ProcessTime": 3600,
+    "Meta": null
+  },
+  {
+    "ID": 30006,
+    "Name": "Cat Milk",
+    "Type": "Basic",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "LiquidContainer",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Cat",
+          "ID": 12720
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Empty Syringe",
+          "itemnamespace": null,
+          "ID": 12660
+        },
+        "Value": 1.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Cat Milk",
+          "ID": 30005
+        },
+        "Value": 2.0
+      },
+      {
+        "Key": {
+          "name": "Milked Cat",
+          "ID": 30006
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Empty Syringe",
+          "itemnamespace": null,
+          "ID": 12660
+        },
+        "Value": 1.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Milked Cat",
+          "ID": 30006
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Empty Syringe",
+          "itemnamespace": null,
+          "ID": 12660
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": false,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "",
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.05,
+    "RelevantSkill": "Cooking",
+    "SkillFactor": 1.0,
+    "ProcessTime": 60,
+    "Meta": null
+  },
+  {
+    "ID": 30007,
+    "Name": "Tea",
+    "Type": "Stove",
+    "useOnlyStolenItems": false,
+    "allowedNonStolenItemsIds": [],
+    "keepItemOwnerOnFail": false,
+    "disableJunkSpawn": false,
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "itemnamespace": null,
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "RecipeTags": [],
+    "variantItemCategory": "LiquidContainer",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Water",
+          "itemnamespace": null,
+          "ID": 14880
+        },
+        "Value": 1.0
+      },
+      {
+        "Key": {
+          "name": "Box of Tea",
+          "itemnamespace": null,
+          "ID": 15280
+        },
+        "Value": 5.0
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Tea",
+          "itemnamespace": null,
+          "ID": 15290
+        },
+        "Value": 1.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Tea",
+          "itemnamespace": null,
+          "ID": 15290
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "ammoInputItemsToIgnore": [],
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "itemnamespace": null,
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.9,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": -1
+      }
+    },
+    "FailChance": 0.0,
+    "RelevantSkill": "Cooking",
+    "MinimumSkill": 0,
+    "SkillFactor": 1.0,
+    "ProcessTime": 600,
     "Meta": null
   }
 ]
