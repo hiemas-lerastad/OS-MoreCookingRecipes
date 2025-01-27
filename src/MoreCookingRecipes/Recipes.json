@@ -254,150 +254,6 @@
     "Meta": null
   },
   {
-    "ID": 30004,
-    "Name": "Hot Dog Bun",
-    "Type": "Oven",
-    "Appearance": {
-      "SpritePath": "",
-      "CraftShowModel": true,
-      "itemToShow": {
-        "name": "Hot Dog Bun",
-        "ID": 14050
-      }
-    },
-    "RecipeRequired": false,
-    "RequiredConditions": [],
-    "ExcludingConditions": [],
-    "variantItemCategory": "None",
-    "variantItemAmount": 0,
-    "input": [
-      {
-        "Key": {
-          "name": "Wheat Dough",
-          "ID": 13490
-        },
-        "Value": 1.0
-      }
-    ],
-    "output": [
-      {
-        "Key": {
-          "name": "Hot Dog Bun",
-          "ID": 14050
-        },
-        "Value": 1.0
-      }
-    ],
-    "outputFail": [
-      {
-        "Key": {
-          "name": "Ash",
-          "ID": 10010
-        },
-        "Value": 1.0
-      }
-    ],
-    "metaSettings": {
-      "setIntegrity": 1.0,
-      "setIntegrityFail": 0.5,
-      "useAmmoAsInput": true,
-      "setAmmoOfMax": 1.0,
-      "setAmmoOfMaxFail": 0.0,
-      "useLiquidContainers": false,
-      "returnLiquidContainers": true,
-      "putLiquidsIntoContainer": {
-        "name": "Open Sewer Coin",
-        "ID": 0
-      },
-      "qualityFactor": 1.0,
-      "qualityFactorFail": 0.5,
-      "useFixedQuality": false,
-      "fixedQuality": 1.0,
-      "mailName": "",
-      "mailReceiver": {
-        "name": "",
-        "ID": 0
-      }
-    },
-    "FailChance": 0.2,
-    "RelevantSkill": "Cooking",
-    "SkillFactor": 1.0,
-    "ProcessTime": 3600,
-    "Meta": null
-  },
-  {
-    "ID": 30005,
-    "Name": "Hamburger Bun",
-    "Type": "Oven",
-    "Appearance": {
-      "SpritePath": "",
-      "CraftShowModel": true,
-      "itemToShow": {
-        "name": "Hamburger Bun",
-        "ID": 14010
-      }
-    },
-    "RecipeRequired": false,
-    "RequiredConditions": [],
-    "ExcludingConditions": [],
-    "variantItemCategory": "None",
-    "variantItemAmount": 0,
-    "input": [
-      {
-        "Key": {
-          "name": "Wheat Dough",
-          "ID": 13490
-        },
-        "Value": 1.0
-      }
-    ],
-    "output": [
-      {
-        "Key": {
-          "name": "Hamburger Bun",
-          "ID": 14010
-        },
-        "Value": 1.0
-      }
-    ],
-    "outputFail": [
-      {
-        "Key": {
-          "name": "Ash",
-          "ID": 10010
-        },
-        "Value": 1.0
-      }
-    ],
-    "metaSettings": {
-      "setIntegrity": 1.0,
-      "setIntegrityFail": 0.5,
-      "useAmmoAsInput": true,
-      "setAmmoOfMax": 1.0,
-      "setAmmoOfMaxFail": 0.0,
-      "useLiquidContainers": false,
-      "returnLiquidContainers": true,
-      "putLiquidsIntoContainer": {
-        "name": "Open Sewer Coin",
-        "ID": 0
-      },
-      "qualityFactor": 1.0,
-      "qualityFactorFail": 0.5,
-      "useFixedQuality": false,
-      "fixedQuality": 1.0,
-      "mailName": "",
-      "mailReceiver": {
-        "name": "",
-        "ID": 0
-      }
-    },
-    "FailChance": 0.2,
-    "RelevantSkill": "Cooking",
-    "SkillFactor": 1.0,
-    "ProcessTime": 3600,
-    "Meta": null
-  },
-  {
     "ID": 30006,
     "Name": "Cat Milk",
     "Type": "Basic",
@@ -559,6 +415,282 @@
           "ID": 15290
         },
         "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "ammoInputItemsToIgnore": [],
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "itemnamespace": null,
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.9,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": -1
+      }
+    },
+    "FailChance": 0.0,
+    "RelevantSkill": "Cooking",
+    "MinimumSkill": 0,
+    "SkillFactor": 1.0,
+    "ProcessTime": 600,
+    "Meta": null
+  },
+  {
+    "ID": 30008,
+    "Name": "Hot Chocolate",
+    "Type": "Stove",
+    "useOnlyStolenItems": false,
+    "allowedNonStolenItemsIds": [],
+    "keepItemOwnerOnFail": false,
+    "disableJunkSpawn": false,
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "itemnamespace": null,
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "RecipeTags": [],
+    "variantItemCategory": "LiquidContainer",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Rat Milk",
+          "itemnamespace": null,
+          "ID": 30004
+        },
+        "Value": 0.5
+      },
+      {
+        "Key": {
+          "name": "Carl Fatler Chocolate Bar",
+          "itemnamespace": null,
+          "ID": 11520
+        },
+        "Value": 1
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Hot Chocolate",
+          "itemnamespace": null,
+          "ID": 30008
+        },
+        "Value": 0.5
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Hot Chocolate",
+          "itemnamespace": null,
+          "ID": 15290
+        },
+        "Value": 0.5
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "ammoInputItemsToIgnore": [],
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "itemnamespace": null,
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.9,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": -1
+      }
+    },
+    "FailChance": 0.0,
+    "RelevantSkill": "Cooking",
+    "MinimumSkill": 0,
+    "SkillFactor": 1.0,
+    "ProcessTime": 600,
+    "Meta": null
+  },
+  {
+    "ID": 30009,
+    "Name": "Hot Chocolate",
+    "Type": "Stove",
+    "useOnlyStolenItems": false,
+    "allowedNonStolenItemsIds": [],
+    "keepItemOwnerOnFail": false,
+    "disableJunkSpawn": false,
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "itemnamespace": null,
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "RecipeTags": [],
+    "variantItemCategory": "LiquidContainer",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Cat Milk",
+          "itemnamespace": null,
+          "ID": 30005
+        },
+        "Value": 0.5
+      },
+      {
+        "Key": {
+          "name": "Carl Fatler Chocolate Bar",
+          "itemnamespace": null,
+          "ID": 11520
+        },
+        "Value": 1
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Hot Chocolate",
+          "itemnamespace": null,
+          "ID": 30008
+        },
+        "Value": 0.5
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Hot Chocolate",
+          "itemnamespace": null,
+          "ID": 15290
+        },
+        "Value": 0.5
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "ammoInputItemsToIgnore": [],
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "itemnamespace": null,
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.9,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
+        "name": "",
+        "ID": -1
+      }
+    },
+    "FailChance": 0.0,
+    "RelevantSkill": "Cooking",
+    "MinimumSkill": 0,
+    "SkillFactor": 1.0,
+    "ProcessTime": 600,
+    "Meta": null
+  },
+  {
+    "ID": 30010,
+    "Name": "Hot Chocolate",
+    "Type": "Stove",
+    "useOnlyStolenItems": false,
+    "allowedNonStolenItemsIds": [],
+    "keepItemOwnerOnFail": false,
+    "disableJunkSpawn": false,
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "itemnamespace": null,
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "RecipeTags": [],
+    "variantItemCategory": "LiquidContainer",
+    "variantItemAmount": 0,
+    "input": [
+      {
+        "Key": {
+          "name": "Milk",
+          "itemnamespace": null,
+          "ID": 20210
+        },
+        "Value": 1
+      },
+      {
+        "Key": {
+          "name": "Carl Fatler Chocolate Bar",
+          "itemnamespace": null,
+          "ID": 11520
+        },
+        "Value": 1
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Hot Chocolate",
+          "itemnamespace": null,
+          "ID": 30008
+        },
+        "Value": 0.5
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Hot Chocolate",
+          "itemnamespace": null,
+          "ID": 15290
+        },
+        "Value": 0.5
       }
     ],
     "metaSettings": {

@@ -840,9 +840,10 @@
       {
         "itemGroup": [
           {
-            "groupItemTag": "milk_input",
+            "groupItemTag": "milk_input1",
             "item": {
               "name": "Milk",
+              "itemnamespace": null,
               "ID": 20210
             },
             "craftingValues": {
@@ -854,9 +855,10 @@
             }
           },
           {
-            "groupItemTag": "milk_input",
+            "groupItemTag": "milk_input2",
             "item": {
               "name": "Milk",
+              "itemnamespace": null,
               "ID": 13460
             },
             "craftingValues": {
@@ -868,9 +870,10 @@
             }
           },
           {
-            "groupItemTag": "milk_input",
+            "groupItemTag": "milk_input3",
             "item": {
               "name": "Rat Milk",
+              "itemnamespace": null,
               "ID": 30004
             },
             "craftingValues": {
@@ -882,9 +885,10 @@
             }
           },
           {
-            "groupItemTag": "milk_input",
+            "groupItemTag": "milk_input4",
             "item": {
               "name": "Cat Milk",
+              "itemnamespace": null,
               "ID": 30005
             },
             "craftingValues": {
@@ -897,6 +901,97 @@
           }
         ],
         "$type": "OS.Items.ItemGroupData"
+      }
+    ]
+  },
+  {
+    "ID": 30008,
+    "Title": "Hot Chocolate",
+    "Categories": [
+      "Liquid"
+    ],
+    "Value": 25,
+    "Description": "",
+    "Stackable": 1,
+    "Appearance": {
+      "Material": "",
+      "SpritePath": "Sprites/Items/Liquids/liquid_coffee",
+      "ColorValue": "RGBA(0.153, 0.118, 0.086, 1.000)",
+      "EmissionStrength": 0.0,
+      "PrefabPath": "Prefabs/Items/testLiquid",
+      "PrefabPathMany": "Prefabs/Items/testLiquid",
+      "SkinSpritePaths": []
+    },
+    "Actions": [
+      {
+        "DestroyAfterUse": false,
+        "Type": "Drink",
+        "Amount": 2,
+        "Food": 0.0,
+        "Drink": 0.0,
+        "Nicotine": 0.0,
+        "Intoxication": 0.0,
+        "SMV": 0.0,
+        "SMVProgressionRate": 0.0,
+        "Depression": -5.0,
+        "Health": 0.0,
+        "Bleeding": 0.0,
+        "High": 0.0,
+        "HighOrange": 0.0,
+        "HighOrangeBad": 0.0,
+        "Tiredness": 1.0,
+        "Hygiene": 0.0,
+        "AlcoholAddiction": 0.0,
+        "MushroomAddiction": 0.0,
+        "SmokingAddiction": 0.0,
+        "SpecialEffectName": "None",
+        "SpecialEffectAmount": 0.0,
+        "Mode": 0,
+        "NoRequiredItems": "",
+        "ItemsToSpawn": [],
+        "RequiredItems": [],
+        "Name": "Drink",
+        "UseSound": "Sounds/use/drinking_001",
+        "Data": null,
+        "$type": "OS.Items.ItemConsumable"
+      }
+    ],
+    "Attachments": {
+      "Name": "",
+      "Attachment1": "",
+      "Attachment2": ""
+    },
+    "Meta": [
+      {
+        "fixedQuality": false,
+        "quality": 1.0,
+        "modifies": "Value,BaseStats,Strength,Depression,SMV,Health",
+        "$type": "OS.Items.ItemQualityData"
+      },
+      {
+        "integrity": 1.0,
+        "integrityLossPerHour": 0.1,
+        "refigerationFactor": 0.0,
+        "spoiledItem": {
+          "name": "Sewage",
+          "itemnamespace": null,
+          "ID": 13270
+        },
+        "refigerated": 0.0,
+        "spritePath": "Sprites/Items/Mold overlay",
+        "dontDestroyAtZero": false,
+        "perishingDisabled": false,
+        "lastChecked": {
+          "seconds": 0.0,
+          "minutes": 0.0,
+          "hours": 0.0,
+          "weekDay": 0,
+          "day": 0,
+          "month": 0,
+          "year": 0,
+          "currentDay": 0
+        },
+        "$type": "OS.Items.ItemPerishabledata"
       }
     ]
   }
