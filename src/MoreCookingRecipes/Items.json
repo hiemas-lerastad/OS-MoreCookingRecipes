@@ -87,7 +87,8 @@
     "ID": 30002,
     "Title": "Vinegar Input",
     "Categories": [
-      "ItemGroup"
+      "ItemGroup",
+      "Liquid"
     ],
     "Value": 0,
     "Description": "It's various alcohols",
@@ -816,9 +817,11 @@
   },
   {
     "ID": 30007,
-    "Title": "Milk Input",
+    "Title": "Milk Liquid",
     "Categories": [
-      "ItemGroup"
+      "ItemGroup",
+      "Liquid",
+      "Food"
     ],
     "Value": 0,
     "Description": "It's various milks",
@@ -839,21 +842,6 @@
     "Meta": [
       {
         "itemGroup": [
-          {
-            "groupItemTag": "milk_input1",
-            "item": {
-              "name": "Milk",
-              "itemnamespace": null,
-              "ID": 20210
-            },
-            "craftingValues": {
-              "useOutputTag": "",
-              "qualityFactor": 1,
-              "addSMV": 0,
-              "skillFactor": 1,
-              "failFactor": 1
-            }
-          },
           {
             "groupItemTag": "milk_input2",
             "item": {
@@ -995,5 +983,4 @@
       }
     ]
   }
-
 ]

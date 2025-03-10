@@ -14,6 +14,10 @@
     "RecipeRequired": false,
     "RequiredConditions": [],
     "ExcludingConditions": [],
+    "RecipeTags": [
+      "Lifehack-Pekka",
+      "Open Sewer Magazine"
+    ],
     "variantItemCategory": "LiquidContainer",
     "variantItemAmount": 0,
     "input": [
@@ -191,6 +195,10 @@
     "ExcludingConditions": [],
     "variantItemCategory": "None",
     "variantItemAmount": 0,
+    "RecipeTags": [
+      "Lifehack-Pekka",
+      "Open Sewer Magazine"
+    ],
     "input": [
       {
         "Key": {
@@ -231,10 +239,95 @@
       "useAmmoAsInput": true,
       "setAmmoOfMax": 1.0,
       "setAmmoOfMaxFail": 0.0,
-      "useLiquidContainers": false,
+      "useLiquidContainers": true,
       "returnLiquidContainers": true,
       "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "itemnamespace": null,
+        "ID": 0
+      },
+      "qualityFactor": 1.0,
+      "qualityFactorFail": 0.5,
+      "useFixedQuality": false,
+      "fixedQuality": 1.0,
+      "mailName": "",
+      "mailReceiver": {
         "name": "",
+        "ID": 0
+      }
+    },
+    "FailChance": 0.013,
+    "RelevantSkill": "Cooking",
+    "SkillFactor": 1.0,
+    "ProcessTime": 2000,
+    "Meta": null
+  },
+  {
+    "ID": 30004,
+    "Name": "Cheese",
+    "Type": "Stove",
+    "Appearance": {
+      "SpritePath": "",
+      "CraftShowModel": false,
+      "itemToShow": {
+        "name": "",
+        "ID": 0
+      }
+    },
+    "RecipeRequired": false,
+    "RequiredConditions": [],
+    "ExcludingConditions": [],
+    "variantItemCategory": "None",
+    "variantItemAmount": 0,
+    "RecipeTags": [
+      "Lifehack-Pekka",
+      "Open Sewer Magazine"
+    ],
+    "input": [
+      {
+        "Key": {
+          "name": "Milk",
+          "ID": 20210
+        },
+        "Value": 4.0
+      },
+      {
+        "Key": {
+          "name": "Vinegar",
+          "ID": 30003
+        },
+        "Value": 0.1
+      }
+    ],
+    "output": [
+      {
+        "Key": {
+          "name": "Cheese",
+          "ID": 24060
+        },
+        "Value": 8.0
+      }
+    ],
+    "outputFail": [
+      {
+        "Key": {
+          "name": "Moldy waste",
+          "ID": 10550
+        },
+        "Value": 1.0
+      }
+    ],
+    "metaSettings": {
+      "setIntegrity": 1.0,
+      "setIntegrityFail": 0.5,
+      "useAmmoAsInput": true,
+      "setAmmoOfMax": 1.0,
+      "setAmmoOfMaxFail": 0.0,
+      "useLiquidContainers": true,
+      "returnLiquidContainers": true,
+      "putLiquidsIntoContainer": {
+        "name": "Open Sewer Coin",
+        "itemnamespace": null,
         "ID": 0
       },
       "qualityFactor": 1.0,
@@ -268,6 +361,10 @@
     "RecipeRequired": false,
     "RequiredConditions": [],
     "ExcludingConditions": [],
+    "RecipeTags": [
+      "Lifehack-Pekka",
+      "Open Sewer Magazine"
+    ],
     "variantItemCategory": "LiquidContainer",
     "variantItemAmount": 0,
     "input": [
@@ -468,17 +565,20 @@
     "RecipeRequired": false,
     "RequiredConditions": [],
     "ExcludingConditions": [],
-    "RecipeTags": [],
+    "RecipeTags": [
+      "Lifehack-Pekka",
+      "Open Sewer Magazine"
+    ],
     "variantItemCategory": "LiquidContainer",
     "variantItemAmount": 0,
     "input": [
       {
         "Key": {
-          "name": "Rat Milk",
+          "name": "Milk Liquid",
           "itemnamespace": null,
-          "ID": 30004
+          "ID": 30007
         },
-        "Value": 0.5
+        "Value": 1.0
       },
       {
         "Key": {
@@ -486,7 +586,7 @@
           "itemnamespace": null,
           "ID": 11520
         },
-        "Value": 1
+        "Value": 1.0
       }
     ],
     "output": [
@@ -560,17 +660,20 @@
     "RecipeRequired": false,
     "RequiredConditions": [],
     "ExcludingConditions": [],
-    "RecipeTags": [],
+    "RecipeTags": [
+      "Lifehack-Pekka",
+      "Open Sewer Magazine"
+    ],
     "variantItemCategory": "LiquidContainer",
     "variantItemAmount": 0,
     "input": [
       {
         "Key": {
-          "name": "Cat Milk",
+          "name": "Milk",
           "itemnamespace": null,
-          "ID": 30005
+          "ID": 20210
         },
-        "Value": 0.5
+        "Value": 1.0
       },
       {
         "Key": {
@@ -578,7 +681,7 @@
           "itemnamespace": null,
           "ID": 11520
         },
-        "Value": 1
+        "Value": 1.0
       }
     ],
     "output": [
@@ -633,9 +736,9 @@
     "Meta": null
   },
   {
-    "ID": 30010,
-    "Name": "Hot Chocolate",
-    "Type": "Stove",
+    "ID": 30011,
+    "Name": "Lettuce Plant",
+    "Type": "Grow",
     "useOnlyStolenItems": false,
     "allowedNonStolenItemsIds": [],
     "keepItemOwnerOnFail": false,
@@ -650,49 +753,36 @@
       }
     },
     "RecipeRequired": false,
-    "RequiredConditions": [],
+    "RequiredConditions": [
+      "Sun"
+    ],
     "ExcludingConditions": [],
     "RecipeTags": [],
-    "variantItemCategory": "LiquidContainer",
+    "variantItemCategory": "None",
     "variantItemAmount": 0,
     "input": [
       {
         "Key": {
-          "name": "Milk",
+          "name": "Lettuce",
           "itemnamespace": null,
-          "ID": 20210
+          "ID": 22050
         },
-        "Value": 1
-      },
-      {
-        "Key": {
-          "name": "Carl Fatler Chocolate Bar",
-          "itemnamespace": null,
-          "ID": 11520
-        },
-        "Value": 1
+        "Value": 1.0
       }
     ],
     "output": [
       {
         "Key": {
-          "name": "Hot Chocolate",
+          "name": "Lettuce Plant",
           "itemnamespace": null,
-          "ID": 30008
+          "ID": 10090
         },
-        "Value": 0.5
+        "Value": 1.0
       }
     ],
-    "outputFail": [
-      {
-        "Key": {
-          "name": "Hot Chocolate",
-          "itemnamespace": null,
-          "ID": 15290
-        },
-        "Value": 0.5
-      }
-    ],
+    "outputFail": {
+
+    },
     "metaSettings": {
       "setIntegrity": 1.0,
       "setIntegrityFail": 0.5,
@@ -700,28 +790,28 @@
       "setAmmoOfMax": 1.0,
       "setAmmoOfMaxFail": 0.0,
       "ammoInputItemsToIgnore": [],
-      "useLiquidContainers": true,
+      "useLiquidContainers": false,
       "returnLiquidContainers": true,
       "putLiquidsIntoContainer": {
-        "name": "Open Sewer Coin",
+        "name": "",
         "itemnamespace": null,
         "ID": 0
       },
       "qualityFactor": 1.0,
-      "qualityFactorFail": 0.9,
+      "qualityFactorFail": 0.5,
       "useFixedQuality": false,
       "fixedQuality": 1.0,
       "mailName": "",
       "mailReceiver": {
         "name": "",
-        "ID": -1
+        "ID": 0
       }
     },
-    "FailChance": 0.0,
-    "RelevantSkill": "Cooking",
+    "FailChance": 0.01,
+    "RelevantSkill": "Farming",
     "MinimumSkill": 0,
     "SkillFactor": 1.0,
-    "ProcessTime": 600,
+    "ProcessTime": 14400,
     "Meta": null
   }
 ]
