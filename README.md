@@ -2,15 +2,18 @@
 
 A small mod that allows for more craftables
 
-Milk - Created from 4 rats and an empty milk carton at a basic cooking station
+Rat Milk - Created from 4 rats and an empty syringe and a liquid container at a basic cooking station
+
+Cat Milk - Created from 4 cats and an empty syringe and a liquid container at a basic cooking station
 
 Cheese - Created with milk and vinegar on a stove
 
 Vinegar - Created by fermenting brewed alcohol such as wine
 
-Hamburger Bun - Wheat Dough in Oven
+tea - brewed a litre at a time
 
-Hot Dog Bun - Wheat Dough in Oven
+Hot chocolate - Chocolate bar and milk at a stove
+
 
 ## Installing
 
